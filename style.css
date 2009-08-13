@@ -12,13 +12,17 @@ html, body {
 	width: 100%;
 }
 a{
+	color: white;
+	text-decoration: none;	
+}
+h2 a{
 	padding: 2px 4px;
 	background-color: #e87e00;
 	color: #12110f;
 	font-weight: bold	;
 	text-decoration: none;
 }
-a:hover{
+h2 a:hover{
 		background-color: #12110f;
 		color: #e87e00;
 }
@@ -177,8 +181,6 @@ p{
 	letter-spacing: 0.1em;
 	font-size: 11px;
 	font-weight: normal;
-	background-color: #12110f;
-	color: white;
 }
 #vcard{
 	margin-top: -5px;
